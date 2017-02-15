@@ -22,7 +22,7 @@ public static float multiplier(float a , float b) {
 	}
 
 /**
- * Mettre en arguments 2 nombres
+ * Mettre en arguments 2 nombre
  * @param args
  */
 	public static void main(String[] args) {
