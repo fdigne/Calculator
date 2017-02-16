@@ -6,7 +6,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Calculator</name>
   <description>Petite application permettant d'effectuer des opérations simples à partir de deux nombres fournis en arguments.</description>
-  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <build>
   <plugins>
     <plugin>
