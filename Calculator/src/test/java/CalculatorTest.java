@@ -16,5 +16,13 @@ public class CalculatorTest {
 	public void MultiplicationTest() {
 		assertTrue(a*b == Calculator.multiplier(a, b));
 	}
+	@Test
+	public void DivisionTest() {
+		assertTrue(a/b == Calculator.diviser(a, b));
+	}
+	@Test
+	public void SoustractionTest() {
+		assertTrue(a-b == Calculator.soustraire(a, b));
+	}
 
 }
