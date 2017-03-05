@@ -67,6 +67,7 @@ public static float complexe(float a , float b) {
 		System.out.println("Le résultat de la multiplication est : "+ multiplier(a,b));
 		System.out.println("Le résultat de la division est : "+ diviser(a,b));
 		System.out.println("Le résultat de la soustraction est : "+ soustraire(a,b));
+		System.out.println("Le résultat de la complexe est : "+ complexe(a,b));
 	}
 
 }
