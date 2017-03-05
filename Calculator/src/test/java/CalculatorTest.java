@@ -24,5 +24,9 @@ public class CalculatorTest {
 	public void SoustractionTest() {
 		assertTrue(a-b == Calculator.soustraire(a, b));
 	}
+	@Test
+	public void ComplexeTest() {
+		assertTrue((a*b)+(a/b) == Calculator.complexe(a, b));
+	}
 
 }

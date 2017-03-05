@@ -40,6 +40,16 @@ public static float diviser(float a , float b) {
 public static float soustraire(float a , float b) {	
 	return a-b;
 }
+/**Permet de faire une opération complexe les deux nombres passés en paramètre
+ * 
+ * @param a : Premier nombre de type float
+ * @param b : Deuxième nombre de type float
+ * @return (a*b)+(a/b)
+ */
+public static float complexe(float a , float b) {
+	
+	return (a*b)+(a/b);
+}
 
 
 /**
